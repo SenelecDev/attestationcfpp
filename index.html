@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+
+    <style>
+        .attest-box {
+            max-width: 790px;
+            margin: auto;
+            padding: 30px 50px;
+            background: url('cadre.PNG') center no-repeat; 
+            font-family: 'Roboto', sans-serif;
+            background-size: contain;
+            box-sizing: border-box;
+        }
+        .attest-box p {
+            font-size: 16px;
+            line-height: 25px;
+            text-align: justify;
+        }
+        .attest-box .logo img {
+            width: 90px;
+        }
+        .attest-header, .attest-header p {
+            text-align: center !important;
+        }
+        .attest-header h2 {
+            color: #002060;
+            text-transform: uppercase;
+            font-size: 40px;
+            margin-top: 0;
+            position: relative;
+        }
+
+        .attest-header h2:after {
+            content: '';
+            display: block;
+            width: 45%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 4px;
+            background: #002060;
+            bottom: -15px;
+        }
+        .attest-prefoo {
+            display: flex;
+            justify-content: end;
+        }
+        .attest-prefoo p, .attest-foo {
+            text-align: center;
+        }
+        .attest-prefoo p {
+            position: relative;
+        }
+        .attest-prefoo p:before {
+            content: '';
+            display: block;
+            width: 130px;
+            height: 130px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            background: url('sign.PNG') center no-repeat;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="attest-box">
+        <div class="attest-header">
+            <div class="logo"><img src="logo.jpg" alt="Logo CFPP"></div>
+            <p>Centre de Formation et de Perfectionnement Professionnels (CFPP)</p>
+            <h2>ATTESTATION DE FORMATION</h2>
+        </div>
+        <div class="attest-body">
+            <div class="attest-text">
+                <p><strong>Monsieur François Michel NDIAYE</strong> a participé à la session de formation intitulée :<br /> <strong>« Préparation à l’Habilitation électrique (Métiers Production) »</strong> qui s’est déroulée<br /> au Centre de Formation et de Perfectionnement Professionnels (CFPP) de Cap des biches<br /> du 24 au 26 juillet 2023.
+                    
+              </p>
+              <p>En foi de quoi cette attestation lui est délivrée pour servir et valoir ce que de droit.</p>
+            </div>
+        </div>
+        <div class="attest-prefoo">
+            <p>
+                M. Papa Ibrahima THIAM<br />
+                Directeur du CFPP
+            </p>
+        </div>
+        <div class="attest-foo">
+            <div class="logo"><img src="logo-sen.png" alt="Logo Senelec"></div>
+        </div>
+    </div>
+</body>
+</html>
